@@ -1,48 +1,58 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Sugestão de Melhoria</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f0f2f5;
-    }
-
-    .button-mailto {
-      background-color: #0057B8;
-      color: white;
-      border: none;
-      padding: 16px 32px;
-      font-size: 18px;
-      border-radius: 8px;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      text-decoration: none;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      transition: background-color 0.3s ease;
-    }
-
-    .button-mailto:hover {
-      background-color: #003f87;
-    }
-
-    .button-mailto svg {
-      margin-right: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Sugestão - Relatório de Renda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        a {
+            background-color: #0078d4; /* Cor azul do Office */
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #005a9e; /* Azul mais escuro ao passar o mouse */
+        }
+    </style>
 </head>
 <body>
-  <h1>Sugira uma melhoria para o relatório</h1>
-  <a class="button-mailto"
-     href="mailto:suportebi@sebraesp.onmicrosoft.com?subject=Relat%C3%B3rio%20Painel%20de%20Renda%20-%20Melhorias%20Powerbi&body=Ol%C3%A1,%0D%0A%0D%0AGostaria%20de%20sugerir%20a%20seguinte%20melhoria%20para%20o%20relat%C3%B3rio:%0D%0A%0D%0ADescri%C3%A7%C3%A3o%20da%20melhoria:%20_____________________%0D%0AImpacto%20esperado:%20_____________________%0D%0AOutras%20observa%C3%A7%C3%B5es:%20_____________________%0D%0A%0D%0AObrigado!"
-     target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v1.8L12 13 2 7.8V6c0-1.1.9-2 2-2zm0 4.25l7.5 4.5L19 8.25V18H5V8.25z"/></svg>
-    Enviar Sugestão por E-mail
-  </a>
+
+<div class="container">
+    <h1>Sugestão de Melhoria</h1>
+    <p>Para enviar sua sugestão sobre o relatório, clique no botão abaixo. O Outlook será aberto automaticamente.</p>
+    
+    <a href="mailto:suportebi@sebraesp.onmicrosoft.com?subject= Relatório Painel de Renda - Sugestão de melhoria&body=Olá, gostaria de sugerir uma melhoria para o relatório 'Painel de Renda':">
+        Clique aqui para enviar uma sugestão
+    </a>
+</div>
+
 </body>
 </html>
